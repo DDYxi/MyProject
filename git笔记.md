@@ -5,10 +5,16 @@ git init xxx(库名)
 git clone https://github.com/biaoyansu/15.x
 
 //将文件内容添加到暂存区中
-git add.
+git add .
+
+//提交版本以及描述
+git commit -m "描述"
 
 //显示工作树状态
 git status
 
 //显示提交日志
 git log
+
+//
+
