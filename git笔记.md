@@ -63,6 +63,9 @@ git push -u 远程名 分支名
 //克隆github上的库  （clone下来的资源默认远程仓库就是clone的仓库地址，github远程名称默认叫做origin）
 git clone 仓库地址
 
+//获取远程更新
+git pull
+
 //三种状态：    modified    stage     committed
                 已修改      已暂存      已提交
 <!-- 1.git的本地、暂存区、仓库的文件自动对比：
