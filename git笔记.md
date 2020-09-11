@@ -1,3 +1,8 @@
+//设置用户名
+git config --global user.name '用户名'
+//设置用户邮箱
+git config --global user.email '邮箱'
+
 //创建一个空的Git存储库或重新初始化现有的存储库
 git init xxx(库名)
 
@@ -5,6 +10,9 @@ git init xxx(库名)
 git add .
 //指定文件
 git add git笔记.md
+
+//删除仓库内的文件
+git rm test.js
 
 //提交版本以及描述
 git commit -m "描述"
