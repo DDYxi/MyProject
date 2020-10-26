@@ -63,7 +63,7 @@ git merge 分支名
 //添加远程仓库
 git remote add 远程名称 远程地址
 //列出所有远程仓库
-gitremote / git remote -v
+git remote / git remote -v
 
 //上传代码
 git push -u 远程名 分支名
