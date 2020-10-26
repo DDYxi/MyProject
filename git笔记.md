@@ -73,6 +73,7 @@ git clone 仓库地址
 
 //获取远程更新
 git pull
+git pull === git fetch && git merge
 
 //三种状态：    modified    stage     committed
                 已修改      已暂存      已提交
